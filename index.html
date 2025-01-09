@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ameyra's Resume</title>
+    <style>
+
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: lightpink;
+            color: black;
+            background-image: url(images/pcloud.jpg);
+        }
+        header {
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-family: Georgia;
+            font-size: 36px;
+            letter-spacing: 2px;
+            border-bottom: 5px solid deeppink;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            background-image: url(images/moon.jpg);
+            background-size: cover;
+            background-blend-mode: overlay;
+        }
+        header p {
+            font-size: 18px;
+            margin-top: 10px;
+            line-height: 1.5;
+        }
+        nav {
+            background-color: deeppink;
+            text-decoration: none;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            font-size: 18px;
+            padding: 5px 10px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: color 0.3s, background-color 0.3s;
+        }
+        nav a:hover {
+            color: deeppink;
+            background-color: white;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+            border-top: 10px solid deeppink;
+        }
+        .portfolio img {
+            width: 300px;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .portfolio img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px;
+        }
+        section#contact a {
+            color: #ff1493;
+            text-decoration: none;
+        }
+        section#contact a:hover {
+            text-decoration: underline;
+        }
+        h2 {
+            font-family: 'Verdana', sans-serif;
+            font-size: 32px;
+            color: white;
+            text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+            letter-spacing: 1px;
+            margin-bottom: 15px;
+            position: relative;
+        }
+        h2::before {
+            position: absolute;
+            font-family: 'Verdana', cursive;
+            font-size: 200px;
+            color: white;
+            transform: rotate(-15deg);
+            white-space: nowrap;
+            letter-spacing: 3px;
+            opacity: 0.5;
+        }
+        h2:hover {
+            color: lightpink;
+            transform: scale(1.05);
+            transition: color 0.3s, transform 0.3s;
+        }
+    </style>
+</head>
+<body>
+    <iframe src="https://free.timeanddate.com/clock/i9ojapof/n122/fn13/fs16/fcf09/tc000/ftb/bas2/bat1/bacfff/pa8/tt0/tw1/th2/ta1/tb4" frameborder="0" width="211" height="56" align="right"></iframe>
+    <header>
+        <h1>𐙚˙⋆.˚Ameyra's Resume 𐙚˙⋆.˚</h1>
+    </header>
+
+    <nav>
+        <a href="portfolio_page.html">About Me</a>
+        <a href="ekoko_page.html">Extra Curricular</a>
+        <a href="eskills.html">Skills</a>
+        <a href="elocation.html">Education</a>
+        <a href="egallery.html">Gallery</a>
+    </nav>
+
+    <section id="home">
+        <h2>Welcome to Ameyra's Page</h2>
+        <p>Hey there! Welcome to my website, where you’ll get to know a bit more about me, Ameyra. I’m in my final semester of a Diploma in Information Management, and this is where I share my journey, experiences, and everything I’m passionate about. From my academic highlights to my love for organizing information and exploring new tech, it’s all here. Feel free to look around, learn about my story, and see how I’m working toward making my mark in the world of information management. Thanks for stopping by—I hope you enjoy getting to know me better!</p>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <h2>My Latest Achievements</h2>
+        <img src="images/image1.jpg" alt="Pelantikan Setiausaha Agong Kelab PEERS">
+        <img src="images/image2.jpg" alt="Pengarah Program PEERS' CSR: Brainiac Blitz">
+        <img src="images/image4.jpg" alt="Pengarah Program PEERS' CSR: Brainiac Blitz">
+        <img src="images/image3.jpg" alt="Pengacara Majlis Program MB 5.0">
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <ul>
+            <li>Final-year student pursuing a Diploma in Information Management.</li>
+            <li>Proficient in information organization and retrieval, with hands-on experience in library systems and data management tools.</li>
+            <li>Passionate about knowledge sharing and simplifying information for better accessibility.</li>
+            <li>Committed to continuous learning and professional growth in the field of information management.</li>
+            <li>Excited to apply academic knowledge and practical skills to real-world challenges in libraries, archives, or digital information environments.</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:ameyrasukri@gmail.com">ameyrasukri@gmail.com</a></p>
+        <p>Phone: +60148896373</p>
+        <a href="https://www.instagram.com/ameyrawr/" target="_blank" title="This will bring you to the owner's Instagram">
+            <img src="buttons/button.png" alt="Instagram Button">
+        </a>
+    </section>
+</body>
+</html>
